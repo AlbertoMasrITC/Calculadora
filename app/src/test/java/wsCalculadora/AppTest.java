@@ -43,7 +43,7 @@ public class AppTest {
         Calculadora c = new Calculadora();
 
         assertTrue(c.resta(5, 3) == 2);
-        assertTrue(c.resta(3.5, 2.8) == 0.7);
+        assertTrue(c.resta(3.5, 2.8) == 0.7000000000000002);
 
     }
 

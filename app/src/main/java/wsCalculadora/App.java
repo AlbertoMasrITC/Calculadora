@@ -21,5 +21,11 @@ public class App {
         System.out.println("Sen(0)="+c.seno(0));
         System.out.println("Cos(0)="+c.coseno(0));
         System.out.println("Tan(0)="+c.tangente(0));
+
+        System.out.println("5-3="+c.resta(5,3));
+        System.out.println("3.5-2.8="+c.resta(3.5,2.8));
+
+        System.out.println("6/2="+c.division(6,2));
+        System.out.println("5.6/2.0="+c.division(5.6,2.0));
     }
 }
