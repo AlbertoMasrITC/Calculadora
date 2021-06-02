@@ -23,10 +23,10 @@ public class Calculadora {
     }
 
     public double resta(double d, double e) {
-        return 0;
+        return d - e;
     }
 
     public double division(double d, double i) {
-        return 0;
+        return d / i;
     }
 }
