@@ -38,4 +38,20 @@ public class AppTest {
 
         assertTrue((Double) c.tangente(0.0)*1.0==(Double)0.0);
     }
+
+    @Test public void testResta() {
+        Calculadora c = new Calculadora();
+
+        assertTrue(c.resta(5, 3) == 2);
+        assertTrue(c.resta(3.5, 2.8) == 0.7);
+
+    }
+
+    @Test public void testDivision() {
+        Calculadora c = new Calculadora();
+
+        assertTrue(c.division(6, 2) == 3);
+        assertTrue(c.division(5.6, 2.0) == 2.8);
+
+    }
 }
