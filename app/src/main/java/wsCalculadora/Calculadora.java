@@ -21,4 +21,12 @@ public class Calculadora {
     public double tangente(double x) {
         return Math.tan(x);
     }
+
+    public double resta(double d, double e) {
+        return 0;
+    }
+
+    public double division(double d, double i) {
+        return 0;
+    }
 }
