@@ -29,4 +29,13 @@ public class Calculadora {
     public double division(double d, double i) {
         return d / i;
     }
+    
+    public double logaritmo(double x){
+        return Math.log10(x);
+    }
+
+    public double exponencial(double x){
+        return Math.exp(x);
+    }
+
 }

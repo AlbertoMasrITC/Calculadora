@@ -54,4 +54,20 @@ public class AppTest {
         assertTrue(c.division(5.6, 2.0) == 2.8);
 
     }
+
+    @Test public void testLogaritmo(){
+        Calculadora c = new Calculadora();
+
+        assertTrue(c.logaritmo(1)*1.0 ==0.0);
+    }
+
+    @Test public void testExponencial(){
+        Calculadora c = new Calculadora();
+
+        assertTrue(c.exponencial(0)==1.0);
+        assertTrue(c.exponencial(1)==2.718281828459045);
+        assertTrue(c.exponencial(2)==7.38905609893065);
+      
+        
+    }
 }
