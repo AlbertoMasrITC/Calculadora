@@ -27,5 +27,11 @@ public class App {
 
         System.out.println("6/2="+c.division(6,2));
         System.out.println("5.6/2.0="+c.division(5.6,2.0));
+
+        System.out.println("Log(1)="+c.logaritmo(1));
+        
+        System.out.println("Exp(0)"+c.exponencial(0));
+        System.out.println("Exp(1)"+c.exponencial(1));
+        System.out.println("Exp(2)"+c.exponencial(2));
     }
 }
